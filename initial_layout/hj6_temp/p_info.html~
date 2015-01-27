@@ -53,9 +53,9 @@
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
-                <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> presonal info </a></li>
+                <li class="active"> <a href="p_info.html"><i class="glyphicon glyphicon-home"></i> presonal info </a></li>
                 <li><a href="Reg.html"><i class="glyphicon glyphicon-cog"></i> Regesiteration</a></li>
-                <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Grades</a></li>
+                <li><a href="Grades.html"><i class="glyphicon glyphicon-comment"></i> Grades</a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-user"></i> Transcrpit</a></li>
                
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2">
@@ -99,10 +99,7 @@
       	
       <!-- column 2 -->	
       <ul class="list-inline pull-right">
-         <li><a href="#"><i class="glyphicon glyphicon-cog"></i></a></li>
-         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-comment"></i><span class="count">3</span></a><ul class="dropdown-menu" role="menu"><li><a href="#">1. Is there a way..</a></li><li><a href="#">2. Hello, admin. I would..</a></li><li><a href="#"><strong>All messages</strong></a></li></ul></li>
-         <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
-         <li><a title="Add Widget" data-toggle="modal" href="#addWidgetModal"><span class="glyphicon glyphicon-plus-sign"></span> Add Widget</a></li>
+                  <li><a title="Add Widget" data-toggle="modal" href="#addWidgetModal"><span class="glyphicon glyphicon-plus-sign"></span> Logged in as Hady Rashwan</a></li>
       </ul>
       <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> Presonal Info</strong></a>  
       
@@ -151,31 +148,41 @@
                      <form class="form form-vertical=">
                         
                         <div class="control-group">
-                         
+                          <div class="row">
+                          <div class="col-left-3">
                           <label>Name</label>
                           <div class="controls">
                            <input type="text" class="form-control" placeholder="Enter Name">
                           </div>
-                        </div>      
-                         
+                        
                           <label>Nu Email</label>
 
-                           <input type="text" class="form-control" placeholder="Enter Name">
+                           <input type="text" class="form-control" placeholder="Enter Email">
                           <label>Personal Email</label>
+                          </div>      
+                         
+                          </div>
 
-                           <input type="text" class="form-control" placeholder="Enter Name">
+                           <input type="text" class="form-control" placeholder="Enter Email ">
                             <label>Address</label>
+									<div class="col-md-3">
+                           <input type="text" class="form-control" placeholder="Enter Address">
+                           <label>Mobile Number</label>
 
-                           <input type="text" class="form-control" placeholder="Enter Name">
+                           <input type="number" class="form-control" placeholder="Enter Number">
+                           
+                           <label>Date Of Birth</label>
+									</div>
+                           <input type="date" class="form-control" placeholder="Enter Address">
                         <div class="control-group">
-                          <label>Message</label>
+                          <label>Notes</label>
                           <div class="controls">
                           	<textarea class="form-control"></textarea>
                           </div>
                         </div> 
                              
                         <div class="control-group">
-                          <label>Category</label>
+                          <label>Intended Major</label>
                           <div class="controls">
                              <select class="form-control"><option>options</option></select>
                           </div>

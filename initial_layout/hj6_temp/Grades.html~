@@ -53,7 +53,7 @@
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
-                <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> presonal info </a></li>
+                <li class="active"> <a href="p_info.html"><i class="glyphicon glyphicon-home"></i> presonal info </a></li>
                 <li><a href="Reg.html"><i class="glyphicon glyphicon-cog"></i> Regesiteration</a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Grades</a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-user"></i> Transcrpit</a></li>
@@ -112,7 +112,7 @@
          <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
          <li><a title="Add Widget" data-toggle="modal" href="#addWidgetModal"><span class="glyphicon glyphicon-plus-sign"></span> Add Widget</a></li>
       </ul>
-      <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> Presonal Info</strong></a>  
+      <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> Term Grades </strong></a>  
       
       	<hr>
       
