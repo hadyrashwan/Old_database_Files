@@ -148,31 +148,28 @@
                      <form class="form form-vertical=">
                         
                         <div class="control-group">
-                          <div class="row">
-                          <div class="col-left-3">
+                         
                           <label>Name</label>
                           <div class="controls">
                            <input type="text" class="form-control" placeholder="Enter Name">
                           </div>
-                        
+                        </div>      
+                         
                           <label>Nu Email</label>
 
                            <input type="text" class="form-control" placeholder="Enter Email">
                           <label>Personal Email</label>
-                          </div>      
-                         
-                          </div>
 
                            <input type="text" class="form-control" placeholder="Enter Email ">
                             <label>Address</label>
-									<div class="col-md-3">
+
                            <input type="text" class="form-control" placeholder="Enter Address">
                            <label>Mobile Number</label>
 
                            <input type="number" class="form-control" placeholder="Enter Number">
                            
                            <label>Date Of Birth</label>
-									</div>
+
                            <input type="date" class="form-control" placeholder="Enter Address">
                         <div class="control-group">
                           <label>Notes</label>

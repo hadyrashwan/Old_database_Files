@@ -22,7 +22,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Dashboard</a>
+      <a class="navbar-brand" href="Admin_home.html">Dashboard</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
@@ -45,7 +45,7 @@
 <div class="row">
 	<div class="col-sm-3">
       <!-- Left column -->
-      <a href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Catgories </strong></a>  
+      <a href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Views </strong></a>  
       
       <hr>
       
@@ -53,10 +53,23 @@
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
-                <li class="active"> <a href="p_info.html"><i class="glyphicon glyphicon-home"></i> presonal info </a></li>
-                <li><a href="Reg.html"><i class="glyphicon glyphicon-cog"></i> Regesiteration</a></li>
-                <li><a href="Grades.html"><i class="glyphicon glyphicon-comment"></i> Grades</a></li>
-                <li><a href="#"><i class="glyphicon glyphicon-user"></i> Transcrpit</a></li>
+                <li class="active"> <a href="Admin_View_Applicants.html"><i class="glyphicon glyphicon-home"></i> Applicants </a></li>
+                <li><a href="Admin_View_Students.html"><i class="glyphicon glyphicon-cog"></i> enrolled students</a></li>
+                <li><a href="Admin_View_Course_dep.html"><i class="glyphicon glyphicon-comment"></i> Course dependencies/a></li>
+                <li><a href="Admin_View_Faculty.html"><i class="glyphicon glyphicon-user"></i> Faculty</a></li>
+
+      
+      <hr>
+           <a href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Requests  </strong></a>   
+      <ul class="list-unstyled">
+        <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
+          </a>
+            <ul class="list-unstyled collapse in" id="userMenu">
+                <li class="active"> <a href="p_info.html"><i class="glyphicon glyphicon-home"></i> Assign Grades </a></li>
+                <li><a href="Reg.html"><i class="glyphicon glyphicon-cog"></i> Advising</a></li>
+                <li><a href="Grades.html"><i class="glyphicon glyphicon-comment"></i> Issue Transcript</a></li>
+
+               
                
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2">
           </a>
@@ -94,145 +107,69 @@
 
       
       
-  	</div><!-- /col-3 -->
-    <div class="col-sm-9">
-      	
-      <!-- column 2 -->	
-      <ul class="list-inline pull-right">
-                  <li><a title="Add Widget" data-toggle="modal" href="#addWidgetModal"><span class="glyphicon glyphicon-plus-sign"></span> Logged in as Hady Rashwan</a></li>
-      </ul>
-      <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> Presonal Info</strong></a>  
-      
-      	<hr>
-      
-		<div class="row">
-           
-            
-          
-            <!-- center left-->	
-         	<div class="col-md-6">
-			  <div class="well">Inbox Messages <span class="badge pull-right">3</span></div>
-              
-              <hr>
-              
-              <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-primary col-sm-3">
-                  <i class="glyphicon glyphicon-plus"></i><br>
-                  Service
-                </a>
-                <a href="#" class="btn btn-primary col-sm-3">
-                  <i class="glyphicon glyphicon-cloud"></i><br>
-                  Cloud
-                </a>
-                <a href="#" class="btn btn-primary col-sm-3">
-                  <i class="glyphicon glyphicon-cog"></i><br>
-                  Tools
-                </a>
-                <a href="#" class="btn btn-primary col-sm-3">
-                  <i class="glyphicon glyphicon-question-sign"></i><br>
-                  Help
-                </a>
-              </div>
-              
-              <hr>
+  	
               
 
-                        
-                       
-              
-              <div class="panel panel-default">
-      
-                       <div class="panel-heading"><h4>Student Info
+   
+          	</div><!--/col-->
+        	<div class="col-md-6">
+ <div class="panel panel-default">
+					<div class="panel-heading"><h4>Courses
                   </h4></div>
                   <div class="panel-body">
                      <form class="form form-vertical=">
-                        
-                        <div class="control-group">
-                         
-                          <label>Name</label>
+                     <label>School</label>
                           <div class="controls">
-                           <input type="text" class="form-control" placeholder="Enter Name">
+                             <select class="form-control"><option>options</option></select>
+                          
                           </div>
-                        </div>      
-                         
-                          <label>Nu Email</label>
-
-                           <input type="text" class="form-control" placeholder="Enter Email">
-                          <label>Personal Email</label>
-
-                           <input type="text" class="form-control" placeholder="Enter Email ">
-                            <label>Address</label>
-
-                           <input type="text" class="form-control" placeholder="Enter Address">
-                           <label>Mobile Number</label>
-
-                           <input type="number" class="form-control" placeholder="Enter Number">
-                           
-                           <label>Date Of Birth</label>
-
-                           <input type="date" class="form-control" placeholder="Enter Address">
-                        <div class="control-group">
-                          <label>Notes</label>
-                          <div class="controls">
-                          	<textarea class="form-control"></textarea>
-                          </div>
-                        </div> 
-                             
-                        <div class="control-group">
-                          <label>Intended Major</label>
+                        <label>Major  </label>
                           <div class="controls">
                              <select class="form-control"><option>options</option></select>
                           </div>
-                        </div>    
+								<label>Course</label>
+                          <div class="controls">
+                             <select class="form-control"><option>options</option></select>
+                          </div>
+                        </div>   
+                       
+                        </div>                           
+                         
                         
+                        
+                        
+
                         <div class="control-group">
                           	<label></label>
                         	<div class="controls">
                         	<button type="submit" class="btn btn-primary">
-                              Post
+                              Search
                             </button>
                         	</div>
                         </div>   
+                                  	
+          	                  <div class="panel-body">
+                <table class="table table-striped">
+                      <thead>
+                        <tr><th>Course ID</th><th>Course Name</th><th>Creidt Hrs</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>0001</td><td>Adsf</td><td>3</td></tr>
+                        <tr><td>0002</td><td>Bfd<d/td><td>3</td></tr>
+                        <tr><td>0003</td><td>Cas</td><td>3</td></tr>
+                        <tr><td>..</td><td>..</td><td>..</td></tr>
+                        <tr><td>..</td><td>..</td><td>..</td></tr>
+                      </tbody>
+               	</table>
+                
+                  </div>
                         
                       </form>
      
 
                   </div><!--/panel-body-->
               </div><!--/panel-->
-	
-			  <hr>              
-
-			  
-              
-              <hr>
-              
-
-   
-          	</div><!--/col-->
-        	<div class="col-md-6">
-				<div class="panel panel-default">
-                  <div class="panel-heading"><h4>Notices</h4></div>
-                  <div class="panel-body">
-                    
-                  <div class="alert alert-info">
-                    <button type="button" class="close" data-dismiss="alert">×</button>
-                    This is a dismissable alert.. just sayin'.
-                  </div>
-							This is your information as student acording to Nile University
-                  <br><br>
-                  For feedbach please contact <a href="google.com">The It support</a> to tweak this info go to the registrar.
-
-              
-              	<div class="panel panel-default">
-             
-                      	</div>
-                	</div>
-                	<div class="panel-body">
-
- 
-                
-                
-                  </div><!--/panel content-->
+				
               
 			</div><!--/col-span-6-->
      
@@ -243,10 +180,7 @@
       
       <hr>
       
-      <div class="row">
-
-      </div>
-  	</div><!--/col-span-9-->
+     
 </div>
 </div>
 <!-- /Main -->
