@@ -65,9 +65,10 @@
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
-                <li class="active"> <a href="p_info.html"><i class="glyphicon glyphicon-home"></i> Assign Grades </a></li>
-                <li><a href="Reg.html"><i class="glyphicon glyphicon-cog"></i> Advising</a></li>
-                <li><a href="Grades.html"><i class="glyphicon glyphicon-comment"></i> Issue Transcript</a></li>
+                <li class="active"> <a href="Admin_Requests_Grades.html"><i class="glyphicon glyphicon-home"></i> Assign Grades </a></li>
+                <li><a href="Admin_Requests_Advising.html"><i class="glyphicon glyphicon-cog"></i> Advising</a></li>
+                <li><a href="Admin_Requests_Transcript.html"><i class="glyphicon glyphicon-comment"></i> Issue Transcript</a></li>
+
 
                
                
@@ -114,10 +115,20 @@
           	</div><!--/col-->
         	<div class="col-md-6">
  <div class="panel panel-default">
-					<div class="panel-heading"><h4>Courses
+					<div class="panel-heading"><h4>Students 
                   </h4></div>
                   <div class="panel-body">
                      <form class="form form-vertical=">
+							<label>ID</label>
+                          <div class="controls">
+                             <select class="form-control"><option>options</option></select>
+                          
+                          </div>
+							<label>Name </label>
+                          <div class="controls">
+                             <select class="form-control"><option>options</option></select>
+                          
+                          </div>                     
                      <label>School</label>
                           <div class="controls">
                              <select class="form-control"><option>options</option></select>
@@ -168,12 +179,69 @@
      
 
                   </div><!--/panel-body-->
+                  <div class="col-md-3">
+                   <div class="panel panel-default">
+      
+                       <div class="panel-heading"><h4>Assin Grades
+                  </h4></div>
+                  <div class="panel-body">
+                     <form class="form form-vertical=">
+                                             <div class="control-group">
+                         
+                          <label>ID </label>
+                          <div class="controls">
+                           <input type="number" class="form-control" placeholder="Enter Name">
+                          </div>
+                        </div>      
+                         
+                          <label> Course </label>
+
+                           <input type="text" class="form-control" placeholder="Enter ID">
+                           
+                          <label>Grade</label>
+                          <div class="controls">
+                             <select class="form-control"><option>A+</option>
+                             <option>A</option>
+                             <option>A-</option>
+                             <option>B+</option>
+                             <option>B</option>
+                             <option>B-</option>
+                             <option>C+</option>
+                             <option>C</option>
+                             <option>C-</option>
+                             <option>D+</option>
+                             <option>D</option>
+                             <option>F</option>
+                             <option>I</option>
+                             <option>WP</option>
+									 <option>WF</option>
+									  <option>Dropes</option></select>
+
+                          </div>
+                                                  <div class="control-group">
+                          	<label></label>
+                        	<div class="controls">
+                        	<button type="submit" class="btn btn-primary">
+                              Commit
+                            </button>
+                        	</div>
+                        </div>
+                        </div>  
+
+ 
+                        
+                        
+     
+
+                  </div><!--/panel-body-->
+              </div><!--/panel-->
+</div>
               </div><!--/panel-->
 				
               
 			</div><!--/col-span-6-->
      
-      </div><!--/row-->
+      
       
       <hr>
       
