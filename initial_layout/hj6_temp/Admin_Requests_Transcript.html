@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Bootstrap 3 Admin</title>
-		<meta name="generator" content="Bluefish 2.2.6" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Bootstrap 3 Admin</title>
+    <meta name="generator" content="Bluefish 2.2.6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
 <!-- Header -->
 <div id="top-nav" class="navbar navbar-inverse navbar-static-top">
   <div class="container-fluid">
@@ -43,7 +43,7 @@
 <!-- Main -->
 <div class="container-fluid">
 <div class="row">
-	<div class="col-sm-3">
+  <div class="col-sm-3">
       <!-- Left column -->
       <a href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Views </strong></a>  
       
@@ -108,17 +108,27 @@
 
       
       
-  	
+    
               
 
    
-          	</div><!--/col-->
-        	<div class="col-md-6">
+            </div><!--/col-->
+          <div class="col-md-6">
  <div class="panel panel-default">
-					<div class="panel-heading"><h4>Courses
+          <div class="panel-heading"><h4>Students 
                   </h4></div>
                   <div class="panel-body">
                      <form class="form form-vertical=">
+              <label>ID</label>
+                          <div class="controls">
+                             <select class="form-control"><option>options</option></select>
+                          
+                          </div>
+              <label>Name </label>
+                          <div class="controls">
+                             <select class="form-control"><option>options</option></select>
+                          
+                          </div>                     
                      <label>School</label>
                           <div class="controls">
                              <select class="form-control"><option>options</option></select>
@@ -128,7 +138,7 @@
                           <div class="controls">
                              <select class="form-control"><option>options</option></select>
                           </div>
-								<label>Course</label>
+                <label>Course</label>
                           <div class="controls">
                              <select class="form-control"><option>options</option></select>
                           </div>
@@ -141,18 +151,18 @@
                         
 
                         <div class="control-group">
-                          	<label></label>
-                        	<div class="controls">
-                        	<button type="submit" class="btn btn-primary">
+                            <label></label>
+                          <div class="controls">
+                          <button type="submit" class="btn btn-primary">
                               Search
                             </button>
-                        	</div>
+                          </div>
                         </div>   
-                                  	
-          	                  <div class="panel-body">
+                                    
+                              <div class="panel-body">
                 <table class="table table-striped">
                       <thead>
-                        <tr><th>Course ID</th><th>Course Name</th><th>Creidt Hrs</th></tr>
+                        <tr><th>Request  ID</th><th>Student ID</th><th>Creidt Hrs</th></tr>
                       </thead>
                       <tbody>
                         <tr><td>0001</td><td>Adsf</td><td>3</td></tr>
@@ -161,7 +171,7 @@
                         <tr><td>..</td><td>..</td><td>..</td></tr>
                         <tr><td>..</td><td>..</td><td>..</td></tr>
                       </tbody>
-               	</table>
+                </table>
                 
                   </div>
                         
@@ -169,12 +179,50 @@
      
 
                   </div><!--/panel-body-->
-              </div><!--/panel-->
-				
-              
-			</div><!--/col-span-6-->
+                  <div class="col-md-3">
+                   <div class="panel panel-default">
+      
+                       <div class="panel-heading"><h4>Approve Request
+                  </h4></div>
+                  <div class="panel-body">
+                     <form class="form form-vertical=">
+                                             <div class="control-group">
+                         
+                          <label>Request ID </label>
+                          <div class="controls">
+                           <input type="number" class="form-control" placeholder="Enter Name">
+                          </div>
+                        </div>      
+                         
+                          <label> Student ID </label>
+
+                           <input type="text" class="form-control" placeholder="Enter ID">
+                           
+                          
+                                                  <div class="control-group">
+                            <label></label>
+                          <div class="controls">
+                          <button type="submit" class="btn btn-primary">
+                              Commit
+                            </button>
+                          </div>
+                        </div>
+                        </div>  
+
+ 
+                        
+                        
      
-      </div><!--/row-->
+
+                  </div><!--/panel-body-->
+              </div><!--/panel-->
+</div>
+              </div><!--/panel-->
+        
+              
+      </div><!--/col-span-6-->
+     
+      
       
       <hr>
       
@@ -209,9 +257,9 @@
 
 
   
-	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
+  <!-- script references -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
