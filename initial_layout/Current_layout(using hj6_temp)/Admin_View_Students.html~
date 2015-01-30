@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
@@ -41,6 +42,7 @@
 <!-- /Header -->
 
 <!-- Main -->
+<span class="glyphicon glyphicon-class-name"></span>
 <div class="container-fluid">
 <div class="row">
 	<div class="col-sm-3">
@@ -53,10 +55,10 @@
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
-                <li class="active"> <a href="Admin_View_Applicants.html"><i class="glyphicon glyphicon-user"></i> Applicants </a></li>
-                <li><a href="Admin_View_Students.html"><i class="glyphicon glyphicon-user"></i> enrolled students</a></li>
-                <li><a href="Admin_View_Faculty.html"><i class="glyphicon glyphicon-user"></i> Faculty</a></li>
+                <li class="active"> <a href="Admin_View_Applicants.html"><i class="glyphicon glyphicon-home"></i> Applicants </a></li>
+                <li><a href="Admin_View_Students.html"><i class="glyphicon glyphicon-cog"></i> enrolled students</a></li>
                 <li><a href="Admin_View_Course_dep.html"><i class="glyphicon glyphicon-comment"></i> Course dependencies</a></li>
+                <li><a href="Admin_View_Faculty.html"><i class="glyphicon glyphicon-user"></i> Faculty</a></li>
 
       
       <hr>
@@ -65,9 +67,9 @@
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
+                <li class="active"> <a href="Admin_Requests_Grades.html"><i class="glyphicon glyphicon-home"></i> Assign Grades </a></li>
                 <li><a href="Admin_Requests_Advising.html"><i class="glyphicon glyphicon-cog"></i> Advising</a></li>
-                <li class="active"> <a href="Admin_Requests_Grades.html"><i class="glyphicon glyphicon-cog"></i> Assign Grades </a></li>
-                <li><a href="Admin_Requests_Transcript.html"><i class="glyphicon glyphicon-cog"></i> Issue Transcript</a></li>
+                <li><a href="Admin_Requests_Transcript.html"><i class="glyphicon glyphicon-comment"></i> Issue Transcript</a></li>
 
                
                
@@ -113,8 +115,8 @@
    
           	</div><!--/col-->
         	<div class="col-md-6">
- <div class="panel panel-default">
-					<div class="panel-heading"><h4>Courses
+        	 <div class="panel panel-default">
+					<div class="panel-heading"><h4>Students
                   </h4></div>
                   <div class="panel-body">
                      <form class="form form-vertical=">
@@ -151,12 +153,12 @@
           	                  <div class="panel-body">
                 <table class="table table-striped">
                       <thead>
-                        <tr><th>Course ID</th><th>Course Name</th><th>Creidt Hrs</th></tr>
+                        <tr><th>SID</th><th>Student Name</th><th>Grade</th></tr>
                       </thead>
                       <tbody>
-                        <tr><td>0001</td><td>Adsf</td><td>3</td></tr>
-                        <tr><td>0002</td><td>Bfd<d/td><td>3</td></tr>
-                        <tr><td>0003</td><td>Cas</td><td>3</td></tr>
+                        <tr><td>0001</td><td>Adsf</td><td>A</td></tr>
+                        <tr><td>0002</td><td>Bfd<d/td><td>A</td></tr>
+                        <tr><td>0003</td><td>Cas</td><td>A</td></tr>
                         <tr><td>..</td><td>..</td><td>..</td></tr>
                         <tr><td>..</td><td>..</td><td>..</td></tr>
                       </tbody>
@@ -175,7 +177,11 @@
      
       </div><!--/row-->
       
-
+      <hr>
+      
+      
+      <hr>
+      
      
 </div>
 </div>
