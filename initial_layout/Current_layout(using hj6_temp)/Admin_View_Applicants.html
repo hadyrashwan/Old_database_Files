@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+            <script src="js/jquery-2.1.3.min.js"></script>
+                <script>
+$(document).ready(function(){
+    $('#button2').click(function(){
+        $("#p1").toggle("swing");
+        $("#p2").toggle("swing");
+        $("#p3").toggle("swing");
+        $("#p4").toggle("swing");
+
+
+    });
+});
+</script>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
     <title>Nile University Student's system</title>
@@ -11,6 +24,7 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
+</head>
 	</head>
 	<body>
 <!-- Header -->
@@ -54,7 +68,7 @@
           </a>
             <ul class="list-unstyled collapse in" id="userMenu">
                 <li class="active"> <a href="Admin_View_Applicants.html"><i class="glyphicon glyphicon-user"></i> Applicants </a></li>
-                <li><a href="Admin_View_Students.html"><i class="glyphicon glyphicon-user"></i> enrolled students</a></li>
+                <li><a href="Admin_View_Students.html"><i class="glyphicon glyphicon-user"></i> Enrolled Students</a></li>
                 <li><a href="Admin_View_Faculty.html"><i class="glyphicon glyphicon-user"></i> Faculty</a></li>
                 <li><a href="Admin_View_Course_dep.html"><i class="glyphicon glyphicon-comment"></i> Course dependencies</a></li>
       
@@ -67,6 +81,7 @@
                 <li><a href="Admin_Requests_Advising.html"><i class="glyphicon glyphicon-cog"></i> Advising</a></li>
                 <li class="active"> <a href="Admin_Requests_Grades.html"><i class="glyphicon glyphicon-cog"></i> Assign Grades </a></li>
                 <li><a href="Admin_Requests_Transcript.html"><i class="glyphicon glyphicon-cog"></i> Issue Transcript</a></li>
+
 
 
                
@@ -198,7 +213,7 @@
                         	</div>
                         </div> 
                         
-                        <div class="control-group">
+                        <div id="p1" class="control-group">
                          
                           <label>Name</label>
                           <div class="controls">
@@ -206,10 +221,10 @@
                           </div>
                         </div>      
                          
-                          <label>Nu Email</label>
+                          <label><p id ="p2">Nu Email</p></label>
 
-                           <input type="text" class="form-control" placeholder="Enter Email">
-                          <label>Personal Email</label>
+                           <input id="p3"  type="text" class="form-control" placeholder="Enter Email">
+                          <label id="p4">Personal Email</label>
 
                            <input type="text" class="form-control" placeholder="Enter Email ">
                             <label>Address</label>
@@ -239,7 +254,9 @@
                         <div class="control-group">
                           	<label></label>
                         	<div class="controls">
-                        	<button type="submit" class="btn btn-primary">
+                            <a id="button2" title="button" class="btn btn-primary" >Press Me</a>
+
+                        	<button id="button3" type="submit" class="btn btn-primary">
                               Post
                             </button>
                         	</div>
@@ -287,7 +304,6 @@
         <h4 class="modal-title">Add Widget</h4>
       </div>
       <div class="modal-body">
-        <p>Add a widget stuff here..</p>
       </div>
       <div class="modal-footer">
         <a href="#" data-dismiss="modal" class="btn">Close</a>
@@ -301,7 +317,7 @@
 
   
 	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		// <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>
